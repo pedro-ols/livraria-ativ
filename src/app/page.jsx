@@ -177,4 +177,4 @@ export default function Home() {
       <button className={styles.scrollTop}>↑</button>
     </div>
   );
-}
+};
