@@ -42,10 +42,6 @@
   padding: 0;
 }
 
-/* NEW RELEASES SECTION STYLES */
-.newReleases {
-  background-color: var(--gray-100);
-}
 
 /* SUBSCRIPTION SECTION STYLES */
 .subscriptionSection {
