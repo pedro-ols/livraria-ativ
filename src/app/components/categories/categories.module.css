@@ -12,6 +12,13 @@
     gap: 1rem;
 }
 
+.sectionHeading {
+    font-size: 1.8rem;
+    color: var(--primary-dark);
+    margin: 0;
+    font-family: inherit;
+}
+
 .categoryCard {
     display: flex;
     flex-direction: column;
