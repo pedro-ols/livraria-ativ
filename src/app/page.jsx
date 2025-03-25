@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import HeroBanner from "./components/herobanner";
 
 export default function Home() {
   // Dados que seriam obtidos de uma API
@@ -145,17 +146,7 @@ export default function Home() {
       <Header/>
 
       {/* HERO BANNER */}
-      <section className={styles.heroBanner}>
-        <div className={styles.heroContent}>
-          <h2 className={styles.heroHeading}>
-            Descubra mundos extraordinários
-          </h2>
-          <p className={styles.heroParagraph}>
-            Promoção de lançamentos com até 30% de desconto!
-          </p>
-          <button className={styles.ctaButton}>Ver ofertas</button>
-        </div>
-      </section>
+      <HeroBanner/>
 
       {/* FEATURED BOOKS SECTION */}
       <section className={styles.bookSection}>
